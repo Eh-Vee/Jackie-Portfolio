@@ -159,7 +159,7 @@ nav ul li a.active {
 
 .home-content {
   flex: 1;
-  animation: fadeInUp 0.8s ease-out;
+  animation: fadeInUp 3s ease-out;
 }
 
 .home-content h1 {
@@ -182,7 +182,7 @@ nav ul li a.active {
   font-weight: 500;
   margin: 0.5rem 1.5rem;
   color: var(--accent-color);
-  animation: typing 3s steps(30, end) infinite;
+  animation: typing 6s steps(30, end) infinite;
   white-space: nowrap;
   overflow: hidden;
   border-right: 2px solid var(--accent-color);
@@ -235,18 +235,6 @@ nav ul li a.active {
     var(--color-secondary)
   );
 }
-
-.btn.secondary {
-  background: transparent;
-  border: 2px solid var(--accent-color);
-  color: var(--accent-color);
-}
-
-.btn.secondary:hover {
-  background: var(--accent-color);
-  color: white;
-}
-
 .home-image {
   flex: 1;
   display: flex;
@@ -257,7 +245,7 @@ nav ul li a.active {
 .home-image img {
   width: 100%;
   max-width: 450px;
-  border-radius: 20px;
+  border-radius: 50%;
   box-shadow: 0 8px 30px;
 }
 
